@@ -1,6 +1,7 @@
 import torch
 from pytorch_lightning import LightningModule
-from app.gan.components import Discriminator, Generator
+from app.gan.discriminator import Discriminator
+from app.gan.generator import Generator
 
 
 class CycleGAN(LightningModule):
