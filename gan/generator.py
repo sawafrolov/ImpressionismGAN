@@ -1,6 +1,6 @@
 import torch.nn as nn
 from pytorch_lightning import LightningModule
-from app.gan.utils import make_conv_layer, make_deconv_layer
+from gan.utils import make_conv_layer, make_deconv_layer
 
 
 RESIDUAL_BLOCKS_NUM = 8

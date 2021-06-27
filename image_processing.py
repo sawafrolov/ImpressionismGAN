@@ -3,7 +3,7 @@ import torch
 from matplotlib.image import imsave
 from skimage.io import imread
 from skimage.transform import resize
-from app.gan import CycleGAN
+from gan import CycleGAN
 
 
 SOURCE_PATH = "app/static/source.png"
